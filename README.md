@@ -4,11 +4,10 @@ A RESTful API built with Laravel for sharing and managing recipes. This API allo
 
 ## Features
 
-- 📝 Full CRUD operations for recipes
-- 🍲 Structured ingredient format with name, unit, and quantity
-- 🇵🇭 Pre-seeded with Filipino food recipes
-- 🔄 JSON responses
-- ✅ Request validation
+-  Full CRUD operations for recipes
+-  Structured ingredient format with name, unit, and quantity
+-  JSON responses
+-  Request validation
 
 ## Technologies Used
 
@@ -28,7 +27,7 @@ A RESTful API built with Laravel for sharing and managing recipes. This API allo
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Zenpou21/Recipe-Sharing-App-Api.git)
 cd Recipe-Sharing-App-Api
 ```
 
@@ -60,17 +59,11 @@ DB_PASSWORD=
 php artisan migrate
 ```
 
-6. **Seed the database** (Optional - includes Filipino recipes)
-```bash
-php artisan db:seed
-```
 
-7. **Start the development server**
+1. **Start the development server**
 ```bash
 php artisan serve
 ```
-
-The API will be available at `https://rsa-api.flowcsolutions.com/api`
 
 ## Database Structure
 
@@ -202,15 +195,6 @@ DELETE /recipes/{id}
 }
 ```
 
-## Seeded Recipes
-
-The database includes 5 Filipino recipes:
-1. **Chicken Adobo** - Classic Filipino braised chicken
-2. **Sinigang na Baboy** - Sour pork soup
-3. **Pancit Canton** - Stir-fried noodles
-4. **Lumpia Shanghai** - Filipino spring rolls
-5. **Kare-Kare** - Peanut-based oxtail stew
-
 ## Testing with Postman/Insomnia
 
 1. Import the API endpoints
@@ -237,31 +221,3 @@ Recipe-Sharing-App-Api/
 │   └── api.php
 └── README.md
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
