@@ -27,7 +27,7 @@ A RESTful API built with Laravel for sharing and managing recipes. This API allo
 
 1. **Clone the repository**
 ```bash
-git clone [<repository-url>](https://github.com/Zenpou21/Recipe-Sharing-App-Api.git)
+git clone https://github.com/Zenpou21/Recipe-Sharing-App-Api.git
 cd Recipe-Sharing-App-Api
 ```
 
